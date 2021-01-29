@@ -1,7 +1,7 @@
 /* Define a function that returns a boolean indicating whether or not all
 characters in a word are lower cased */
 
-function isUpperCased(word) {
+function isLowerCased(word) {
   if (word === word.toLowerCase()) {
     return true;
   }
