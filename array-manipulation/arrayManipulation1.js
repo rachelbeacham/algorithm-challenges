@@ -1,4 +1,4 @@
-/* head(array)
+/* 🚨 🚨 🚨  head(array)
 Do not use slice(), splice(), pop(), or shift() in your implementation of head.
 
 Parameters
