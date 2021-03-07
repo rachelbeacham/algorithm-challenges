@@ -75,3 +75,20 @@ function initial(array) {
 
 //using pop method
 const newArray = (array) => array.pop()
+
+/* 🚨🚨🚨 reverse(array)
+Do not use Array.prototype.reverse() in your implementation of reverse.
+
+Parameters
+array - Any JavaScript Array
+
+Return Value
+A new array containing all elements of array in reverse order. */
+
+function reverse(array) {
+  const reverseArray = [];
+  for (let i = array.length - 1; i >= 0; i--) {
+    reverseArray.push(array[i]);
+  }
+  return reverseArray;
+}
