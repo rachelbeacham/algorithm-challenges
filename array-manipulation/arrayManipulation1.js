@@ -92,3 +92,21 @@ function reverse(array) {
   }
   return reverseArray;
 }
+
+/* 🚨🚨🚨 compact(array)
+
+Parameters
+array - Any JavaScript Array
+
+Return Value
+A new array containing all truthy elements of the given array. */
+
+function compact(array) {
+  const newArray = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i]) {
+      newArray.push(array[i]);
+    }
+    return newArray;
+  }
+}
