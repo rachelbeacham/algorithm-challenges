@@ -32,7 +32,7 @@ function drop(array, count) {
   return newArray;
 }
 
-/*🚨🚨🚨 includes(array, value) 🚨
+/*🚨🚨🚨 includes(array, value)
 
 Parameters
 array - Any JavaScript Array
