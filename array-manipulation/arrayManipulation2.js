@@ -31,3 +31,23 @@ function drop(array, count) {
   const newArray = array.slice(count);
   return newArray;
 }
+
+/*🚨🚨🚨 includes(array, value) 🚨
+
+Parameters
+array - Any JavaScript Array
+value - The value to search for in array
+
+Return Value
+A Boolean indicating the presence of value at any index of array.
+
+Do not use Array.prototype.includes in your implementation */
+
+function includes(array, value) {
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === value) {
+      return true
+    }
+  }
+  return false;
+}
