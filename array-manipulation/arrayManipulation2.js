@@ -67,3 +67,19 @@ function takeRight(array, count) {
   const newArray = array.slice(-count);
   return newArray;
 }
+
+
+/* 🚨🚨🚨 dropRight(array, count)
+
+Parameters
+array - Any JavaScript Array
+count - A positive integer Number of elements to "drop" from the end of array.
+
+Return Value
+A new Array containing the elements of array before the last count elements.
+Do not mutate the input array!  */
+
+function dropRight(array, count) {
+  const newArray = array.slice(0, -count);
+  return newArray;
+}
