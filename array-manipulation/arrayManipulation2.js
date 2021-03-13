@@ -51,3 +51,19 @@ function includes(array, value) {
   }
   return false;
 }
+
+/* 🚨🚨🚨  takeRight(array, count)
+
+Parameters
+array - Any JavaScript Array
+count - A positive integer Number of elements to "take" from the end of array.
+
+Return Value
+A new Array containing the last count elements of array.
+
+Do not mutate the input array!  */
+
+function takeRight(array, count) {
+  const newArray = array.slice(-count);
+  return newArray;
+}
