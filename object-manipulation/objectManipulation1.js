@@ -47,3 +47,36 @@ function getKeys(object) {
   }
   return keysArray;
 }
+
+
+/* 🚨🚨🚨  getValues(object)
+Do not use Object.values in your implementation of getValues().
+
+Parameters
+object - Any JavaScript Object
+
+Return Value
+An Array of the object's property values. */
+
+function getValues(object) {
+  const valuesArray = [];
+  for (let key in object) {
+    valuesArray.push(object[key])
+  }
+  return valuesArray;
+}
+
+
+/* 🚨🚨🚨  toObject(keyValuePair)
+
+Parameters
+keyValuePair - An Array containing two elements; a String key and any other JavaScript value.
+
+Return Value
+An Object with one property consisting of the passed keyValuePair. */
+
+function toObject(keyValuePair) {
+  const newObj = {};
+  newObj[keyValuePair[0]] = keyValuePair[1];
+  return newObj;
+}
